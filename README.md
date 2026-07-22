@@ -1,6 +1,6 @@
 # Mozhi
-- Last updated : 21/07/2026
-Domain-adaptive voice transcription correction middleware.
+- Last updated : 22/07/2026
+- Domain-adaptive voice transcription correction middleware.
 
 ## Last Updated
 - `core/stopwords.py` — stopword loader with plugin config
