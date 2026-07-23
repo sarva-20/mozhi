@@ -1,0 +1,8 @@
+{
+  "terms": [],
+  "weights": {
+    "phonetic": 0.5,
+    "jaro": 0.3,
+    "token": 0.2
+  }
+}
