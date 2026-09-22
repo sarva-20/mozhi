@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# other virtualenvs used during development (see CLAUDE.md for the one actually used)
+venv/
+venv312/
+
+# raw recordings of real people - kept out of git history entirely, not just the
+# Docker image (see .dockerignore, which excludes the whole directory since the
+# Docker image has no use for any of it, audio or text). Here, audio-only: the
+# README and *.expected.txt ground-truth text are tracked as evidence, same as
+# reports/ and data/stt_transcripts/.
+data/volunteer_audio/*.m4a
+data/volunteer_audio/*.mp3
+data/volunteer_audio/*.wav
+data/volunteer_audio/*.ogg
+data/volunteer_audio/*.flac
+data/volunteer_audio/*.aac
+
+# secrets - never commit, set as host/CI environment variables instead
+.env
+.env.*
+.streamlit/secrets.toml
+
+# editor/OS local state, not project state
+.vscode/
+.DS_Store

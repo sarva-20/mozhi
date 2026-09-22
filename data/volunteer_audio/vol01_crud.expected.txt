@@ -1,0 +1,14 @@
+The vendor's status page still says everything is operational.
+The firewall rule change didn't get pushed to the branch office router.
+The client's firewall is dropping our health check pings intermittently.
+The new employee still can't print from the third floor.
+Support said they'd follow up on the SLA breach by end of day.
+Someone needs to patch that firmware before the weekend rollout.
+The security team flagged a possible SQL injection attempt.
+The deployment pipeline is stuck waiting on a manual approval step.
+Our uptime dropped below the promised threshold this quarter.
+That patch fixed the crash but introduced a weird rendering bug.
+That's odd, the same request worked fine yesterday.
+The nightly sync job failed silently for almost a week before anyone noticed.
+
+CRUD DNS SLA HSTS RAID VPN ORM

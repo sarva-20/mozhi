@@ -1,0 +1,14 @@
+The scheduled job overlapped with the backup window and locked the table.
+We should stagger the update rollout instead of pushing it everywhere at once.
+The support script doesn't handle accounts with special characters well.
+The encryption keys need to be rotated before the audit.
+Can you check whether the load test numbers actually match production traffic?
+The onboarding script fails silently if the username has a space in it.
+That fix works locally but breaks in the containerized environment.
+We should probably automate that manual restart step.
+We think the phishing email got past the filter because of a typo domain.
+I restarted the service but the queue is still backed up.
+The test environment doesn't have the same data volume as production.
+The shared inbox rules got overwritten during the mailbox migration.
+
+NoSQL SSL GPU VM WAN HTTP IAM

@@ -1,0 +1,8 @@
+{
+  "file": "vol03_mfa.m4a",
+  "transcript": "The scheduled reboot didn't actually apply the pending updates. We roll back the release because the checkout flow was throwing errors. The monitoring dashboard hasn't updated in almost 20 minutes. The news switch hasn't shown up in the network inventory yet. The webhook stopped firing after we rotated the signing secret. Someone needs to check why the antivirus keeps quarantining that installer. The vendors API changed the response format without any warning. Nobody documented how the old cron job was supposed to work. We need to update the DHCP settings on the new router. The config drifted between environments again after the last change. Someone needs to review the access logs from that suspicious login. Their support team needs read access to that log bucket.",
+  "audio_duration_s": 50.368,
+  "transcription_time_s": 1.764,
+  "real_time_factor": 0.035,
+  "detected_language": "en"
+}

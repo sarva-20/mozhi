@@ -1,0 +1,8 @@
+{
+  "file": "vol08_https.m4a",
+  "transcript": "That's a good catch, I hadn't thought about the HK's at all, the VPN client won't connect from home for half the team today. We lost Quorum on the cluster after that note went down, that endpoint returns of 500 error whenever the request body is empty, the alert fired 3 times before anyone actually looked at it, the dashboard filters reset every time you refresh the page, we should probably rotate the service account credentials this month, the client keeps getting logged out every 15 minutes for no reason, the client's network team blocked a outbound request by mistake, someone should verify the disaster recovery site actually failed over correctly, we are not sure if the outage was on end or the providers, the id crashed twice while I was debugging that function.",
+  "audio_duration_s": 51.947,
+  "transcription_time_s": 2.043,
+  "real_time_factor": 0.039,
+  "detected_language": "en"
+}

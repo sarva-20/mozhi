@@ -1,0 +1,65 @@
+Mozhi accuracy evaluation
+Generated: 2026-09-22 13:58:48
+Files evaluated: 32   Reference words: 4170
+Corrector: app.pipeline.correct_text (threshold 0.88, 319-term dictionary)
+Scoring: WORD-level, case and punctuation ignored, app.tokenizer word boundaries
+Alignment: rapidfuzz Levenshtein opcodes (unit cost); equally-cheap alignments are broken deterministically by the library
+
+Per file
+  test_audio1              ref= 11  raw WER  81.8% 9 errors (S3/D0/I6)           corrected WER  81.8% 9 errors (S3/D0/I6)   [STT: cached]
+  test_audio2              ref= 14  raw WER  28.6% 4 errors (S4/D0/I0)           corrected WER   7.1% 1 error (S1/D0/I0)   [STT: cached]
+  vol01_crud               ref=132  raw WER  15.2% 20 errors (S9/D9/I2)          corrected WER  15.2% 20 errors (S9/D9/I2)   [STT: cached]
+  vol02_nosql              ref=141  raw WER   8.5% 12 errors (S5/D7/I0)          corrected WER   8.5% 12 errors (S5/D7/I0)   [STT: cached]
+  vol03_mfa                ref=132  raw WER   9.1% 12 errors (S5/D7/I0)          corrected WER  10.6% 14 errors (S7/D7/I0)   [STT: cached]
+  vol04_dhcp               ref=132  raw WER   9.8% 13 errors (S5/D7/I1)          corrected WER   9.8% 13 errors (S5/D7/I1)   [STT: cached]
+  vol05_sql                ref=143  raw WER  17.5% 25 errors (S14/D9/I2)         corrected WER  17.5% 25 errors (S14/D9/I2)   [STT: cached]
+  vol06_rbac               ref=146  raw WER  13.7% 20 errors (S11/D7/I2)         corrected WER  13.7% 20 errors (S11/D7/I2)   [STT: cached]
+  vol07_stp                ref=140  raw WER  20.0% 28 errors (S10/D18/I0)        corrected WER  20.0% 28 errors (S10/D18/I0)   [STT: cached]
+  vol08_https              ref=142  raw WER  14.8% 21 errors (S11/D9/I1)         corrected WER  15.5% 22 errors (S12/D9/I1)   [STT: cached]
+  vol09_lan                ref=138  raw WER  14.5% 20 errors (S10/D8/I2)         corrected WER  14.5% 20 errors (S10/D8/I2)   [STT: cached]
+  vol10_uri                ref=137  raw WER  15.3% 21 errors (S10/D7/I4)         corrected WER  15.3% 21 errors (S10/D7/I4)   [STT: cached]
+  vol11_sql                ref=140  raw WER  30.0% 42 errors (S17/D24/I1)        corrected WER  29.3% 41 errors (S16/D24/I1)   [STT: cached]
+  vol12_dns                ref=141  raw WER  33.3% 47 errors (S23/D20/I4)        corrected WER  33.3% 47 errors (S23/D20/I4)   [STT: cached]
+  vol13_dhcp               ref=135  raw WER  37.8% 51 errors (S14/D35/I2)        corrected WER  37.8% 51 errors (S14/D35/I2)   [STT: cached]
+  vol14_uefi               ref=140  raw WER  28.6% 40 errors (S13/D24/I3)        corrected WER  28.6% 40 errors (S13/D24/I3)   [STT: cached]
+  vol15_vm                 ref=133  raw WER  19.5% 26 errors (S16/D6/I4)         corrected WER  18.8% 25 errors (S15/D6/I4)   [STT: cached]
+  vol16_san                ref=131  raw WER  20.6% 27 errors (S13/D12/I2)        corrected WER  20.6% 27 errors (S13/D12/I2)   [STT: cached]
+  vol17_cd                 ref=136  raw WER  27.9% 38 errors (S12/D23/I3)        corrected WER  28.7% 39 errors (S13/D23/I3)   [STT: cached]
+  vol18_yaml               ref=142  raw WER  29.6% 42 errors (S17/D20/I5)        corrected WER  29.6% 42 errors (S17/D20/I5)   [STT: cached]
+  vol19_ddos               ref=145  raw WER  19.3% 28 errors (S7/D21/I0)         corrected WER  20.0% 29 errors (S8/D21/I0)   [STT: cached]
+  vol20_sftp               ref=139  raw WER  36.7% 51 errors (S16/D30/I5)        corrected WER  37.4% 52 errors (S17/D30/I5)   [STT: cached]
+  vol21_ids                ref=139  raw WER  36.7% 51 errors (S28/D7/I16)        corrected WER  37.4% 52 errors (S29/D7/I16)   [STT: cached]
+  vol22_sql                ref=140  raw WER  31.4% 44 errors (S23/D9/I12)        corrected WER  32.1% 45 errors (S23/D9/I13)   [STT: cached]
+  vol23_api                ref=134  raw WER  32.8% 44 errors (S22/D8/I14)        corrected WER  33.6% 45 errors (S23/D8/I14)   [STT: cached]
+  vol24_ddos               ref=134  raw WER  35.1% 47 errors (S28/D9/I10)        corrected WER  34.3% 46 errors (S27/D9/I10)   [STT: cached]
+  vol25_soap               ref=130  raw WER  34.6% 45 errors (S30/D10/I5)        corrected WER  35.4% 46 errors (S31/D10/I5)   [STT: cached]
+  vol26_rbac               ref=143  raw WER  30.1% 43 errors (S26/D12/I5)        corrected WER  30.1% 43 errors (S26/D12/I5)   [STT: cached]
+  vol27_uefi               ref=144  raw WER  32.6% 47 errors (S31/D9/I7)         corrected WER  32.6% 47 errors (S31/D9/I7)   [STT: cached]
+  vol28_csv                ref=138  raw WER  20.3% 28 errors (S16/D8/I4)         corrected WER  22.5% 31 errors (S17/D8/I6)   [STT: cached]
+  vol29_rest               ref=143  raw WER  28.7% 41 errors (S25/D11/I5)        corrected WER  27.3% 39 errors (S24/D11/I4)   [STT: cached]
+  vol30_json               ref=135  raw WER  26.7% 36 errors (S23/D7/I6)         corrected WER  27.4% 37 errors (S24/D7/I6)   [STT: cached]
+
+Aggregate (micro-averaged over all reference words)
+  raw WER:        24.5%  (1023 errors / 4170 words)
+  corrected WER:  24.7%  (1029 errors / 4170 words)
+  WER reduction:  -0.1 percentage points (positive = Mozhi helped), relative -0.6%
+
+Error regions in the raw STT: 452   (a region is a maximal run of misaligned words, usually one)
+  category                     regions   fixed   catch-rate
+  phonetic_substitution             35       5      14.3%
+  non_phonetic_substitution        184       0       0.0%
+  omission                          42       0       0.0%
+  insertion                         35       0       0.0%
+  out_of_scope                     156       0       0.0%
+  all categories                   452       5       1.1%
+
+PHONETIC-SUBSTITUTION CATCH RATE: 5/35 = 14.3%   <- the addressable accuracy number
+  phonetic share of STT error regions: 35/452 = 7.7%
+  changed but still wrong: 25
+  regressions (STT right, Mozhi broke it): 5
+
+Caveats
+  - Categories are SUGGESTIONS (Metaphone similarity >= 0.8, an unvalidated starting value), not ground truth. 0 of 452 STT-error regions carry a hand-set category_reviewed.
+  - 'insertion' (extra STT words) and 'out_of_scope' (phonetically close but the expected word(s) are not in the 319-term dictionary) are two labels beyond the original phonetic/omission/non-phonetic taxonomy.
+  - WER is per word; catch-rate is per region. A region can span several words.
+  - Sample: 32 file(s), 452 error region(s). Small samples say whether the pipeline works, not how accurate Mozhi is.

@@ -1,0 +1,8 @@
+{
+  "file": "vol20_sftp.m4a",
+  "transcript": "Can we schedule a maintenance window for the database migration? The Qt team found a regression in the search results ranking. The backup restored file, but the index needs to be rebuilt. The report took over for our to run, the query needs an index. We should stagger an update rollout instead of pushing it to everywhere at once. Nobody documented how the old con job was supported to work. One accidentally dated the stagging database this morning. The test environment does not have the same data volume as protection. We are seeing a memory leak whenever the batch job runs overnight. The migration script left a few orphan records in the old table.",
+  "audio_duration_s": 42.155,
+  "transcription_time_s": 1.687,
+  "real_time_factor": 0.04,
+  "detected_language": "en"
+}

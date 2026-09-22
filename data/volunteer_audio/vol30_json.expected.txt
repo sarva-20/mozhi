@@ -1,0 +1,14 @@
+Someone needs to check why the antivirus keeps quarantining that installer.
+We should probably rotate the service account credentials this month.
+We think the phishing email got past the filter because of a typo domain.
+We think there was a credential stuffing attempt overnight.
+That's odd, the same request worked fine yesterday.
+The nightly sync job failed silently for almost a week before anyone noticed.
+We lost quorum on the cluster after that node went down.
+The token expired mid-session, so the upload silently failed.
+The contractor's laptop still hasn't been enrolled in device management.
+The client's proxy is stripping headers our service depends on.
+The ticket says the printer driver isn't installing on the new laptops.
+Someone should check if that outage affected billing as well.
+
+JSON SNMP SDK CDN SSO POP3 VLAN

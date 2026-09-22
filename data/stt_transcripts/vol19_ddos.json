@@ -1,0 +1,8 @@
+{
+  "file": "vol19_ddos.m4a",
+  "transcript": "I think the outage was caused by a misconfigured load balancer rule. We should probably achieve those old logs before the disk fails up. The contractors laptop still hasn't been enrolled in device management. Someone should check if the outage affected building as well. We need to update the DHCP settings on the new router. Someone should verify the disaster recovery site actually failed over correctly. That's a good catch. I hadn't thought about the edge case at all. That's honestly a cleaner way to structure the config files. That laptop keeps blue-screening every time it wakes from sleep. The new firewall policy is blocking traffic from our own office. The workaround is fine around, but we should fix the root cause eventually.",
+  "audio_duration_s": 45.653,
+  "transcription_time_s": 1.778,
+  "real_time_factor": 0.039,
+  "detected_language": "en"
+}

@@ -1,0 +1,8 @@
+{
+  "file": "vol16_san.m4a",
+  "transcript": "We think the update was regional, not just our data center. We noticed that checksum didn't match after the file transfer. We are really waiting on the vendor to confirm the maintenance window. That's all. The same request worked fine yesterday. The endpoint returns a 500 error whenever the request body is empty. The alert fired three times before anyone can actually look left. The web port stopped firing after we rotated the signing secret. The password reset emails landing in everyone's spam folder. That's actually a really good idea. Let's go with it. The dashboard widget keeps throwing an error on refresh. Can you check on the backup job actually completed last night? SAN SOC IOPTS XML GPU VAN OS",
+  "audio_duration_s": 50.56,
+  "transcription_time_s": 2.053,
+  "real_time_factor": 0.041,
+  "detected_language": "en"
+}

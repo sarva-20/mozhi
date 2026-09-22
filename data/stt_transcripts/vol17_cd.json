@@ -1,0 +1,8 @@
+{
+  "file": "vol17_cd.m4a",
+  "transcript": "The VPN client won't connect from home for off the team today. We shared inbox rules got overwritten during the mailbox migration. We are seeing packet loss on the link between two data centers. We roll back the release because the checkout flow was throwing errors. The support team needs to read access to the log bucket. The vendor's status page still says everything is operational. The proxy is catching style responses even after we clear this. The ticket got auto-closed before anyone actually resolved it. The new switch conflict didn't get saved before the power blip. The support chatbot keeps getting giving customers the wrong reset link. CD, SSL, CDN, MFA, TLS, SSOP, PET.",
+  "audio_duration_s": 49.045,
+  "transcription_time_s": 1.734,
+  "real_time_factor": 0.035,
+  "detected_language": "en"
+}

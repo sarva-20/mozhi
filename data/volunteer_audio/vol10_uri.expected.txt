@@ -1,0 +1,14 @@
+That's a reasonable timeline, let's confirm it with the client tomorrow.
+The load balancer is sending too much traffic to the second node.
+I think we're hitting a rate limit on the third-party service.
+That report took forever to run, the query needs an index.
+Can you check if the backup job actually completed last night?
+We think the outage was regional, not just our data center.
+The access request is stuck in approval because the manager's out.
+The new hire still doesn't have access to the shared drive.
+We think there was a credential stuffing attempt overnight.
+We need a rollback plan in case the deployment goes sideways.
+Someone should check if the replication lag is affecting reporting.
+The scanner flagged an outdated library in the dependency tree.
+
+URI CPU POP3 JSON CD SATA CVE

@@ -1,0 +1,8 @@
+{
+  "file": "vol21_ids.mp3",
+  "transcript": "The storage array is nearly full. We should plan and upgrade soon. We need a road back plan in case the deployment goes sideways. We are not seeing any, we are not seeing the new build reflected on the stacking server yet. The support said they would follow on a SLA branch by the end of the day. The dashboard filter resets every time you refresh the page. The access request is stuck on approval because of the manager's out. We lost quorum on the cluster after the road went down. We should probably rotate the service account decrement should this move. The van link to the entire branch of this keeps dropping every after home. The support planes doesn't handle accounts with special characters well. That's the fair point. We should place it on tomorrow's contact. The shared calendar invites itself with the half of the attendees.",
+  "audio_duration_s": 60.864,
+  "transcription_time_s": 2.315,
+  "real_time_factor": 0.038,
+  "detected_language": "en"
+}

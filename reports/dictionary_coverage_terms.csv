@@ -1,0 +1,320 @@
+term,category,shape,n_words,canonical_ok,evaluated_n,evaluated_caught,evaluated_rate,synthetic_n,synthetic_caught,synthetic_rate,failing_operators
+802.11ax,networking,acronym_digits,1,yes,2,0,0.000,2,0,0.000,"spoken_digits, spoken_digits_spelled"
+C2,security,acronym_digits,1,yes,2,0,0.000,2,0,0.000,"spoken_digits, spoken_digits_spelled"
+FIDO2,security,acronym_digits,1,yes,2,0,0.000,2,0,0.000,"spoken_digits, spoken_digits_spelled"
+IPv4,networking,acronym_digits,1,yes,2,0,0.000,2,0,0.000,"spoken_digits, spoken_digits_spelled"
+IPv6,networking,acronym_digits,1,yes,2,0,0.000,2,0,0.000,"spoken_digits, spoken_digits_spelled"
+SQL injection,security,phrase,2,yes,11,0,0.000,10,0,0.000,"consonant_swap, double_consonant, drop_last, merge_words, respell, spell_token, split_word, swap_words, vowel_swap"
+TCP handshake,networking,phrase,2,yes,11,0,0.000,10,0,0.000,"consonant_swap, double_consonant, drop_last, merge_words, spell_token, split_word, swap_words, vowel_swap"
+WPA2,networking,acronym_digits,1,yes,2,0,0.000,2,0,0.000,"spoken_digits, spoken_digits_spelled"
+WPA3,networking,acronym_digits,1,yes,2,0,0.000,2,0,0.000,"spoken_digits, spoken_digits_spelled"
+X.509,security,acronym_digits,1,yes,2,0,0.000,2,0,0.000,"spoken_digits, spoken_digits_spelled"
+configuration management database,general,phrase,3,yes,10,0,0.000,10,0,0.000,"consonant_swap, double_consonant, drop_last, merge_words, respell, split_word, swap_words, vowel_swap"
+security orchestration automation and response,security,phrase,5,yes,10,0,0.000,10,0,0.000,"consonant_swap, double_consonant, drop_filler, drop_last, merge_words, respell, split_word, swap_words, vowel_swap"
+web application firewall,security,phrase,3,yes,10,0,0.000,10,0,0.000,"consonant_swap, double_consonant, drop_last, merge_words, respell, split_word, swap_words, vowel_swap"
+endpoint detection and response,security,phrase,4,yes,10,1,0.100,10,1,0.100,"consonant_swap, double_consonant, drop_filler, drop_last, merge_words, respell, swap_words, vowel_swap"
+one-time password,security,phrase,3,yes,10,1,0.100,10,1,0.100,"consonant_swap, double_consonant, drop_last, respell, split_word, swap_words, vowel_swap"
+power-on self-test,hardware,phrase,4,yes,10,1,0.100,10,1,0.100,"add_suffix, consonant_swap, double_consonant, drop_last, respell, swap_words, vowel_swap"
+round-trip time,networking,phrase,3,yes,10,1,0.100,10,1,0.100,"add_suffix, consonant_swap, double_consonant, drop_last, respell, swap_words, vowel_swap"
+single sign-on,security,phrase,3,yes,10,1,0.100,10,1,0.100,"add_suffix, consonant_swap, double_consonant, drop_last, respell, swap_words, vowel_swap"
+time-based one-time password,security,phrase,5,yes,10,1,0.100,10,1,0.100,"consonant_swap, double_consonant, drop_last, respell, split_word, swap_words, vowel_swap"
+OCSP stapling,security,phrase,2,yes,11,3,0.273,10,2,0.200,"consonant_swap, double_consonant, drop_last, respell, split_word, swap_words, vowel_swap"
+cross-site scripting,security,phrase,3,yes,10,2,0.200,10,2,0.200,"double_consonant, drop_last, respell, split_word, swap_words, vowel_swap"
+functional escalation,general,phrase,2,yes,10,2,0.200,10,2,0.200,"double_consonant, drop_last, merge_words, split_word, swap_words, vowel_swap"
+knowledge-centered service,general,phrase,3,yes,10,2,0.200,10,2,0.200,"consonant_swap, double_consonant, drop_last, respell, swap_words, vowel_swap"
+privilege escalation,security,phrase,2,yes,10,2,0.200,10,2,0.200,"double_consonant, drop_last, merge_words, respell, split_word, swap_words"
+reverse proxy,networking,phrase,2,yes,10,2,0.200,10,2,0.200,"drop_last, merge_words, respell, split_word, swap_words, vowel_swap"
+role-based access control,security,phrase,4,yes,10,2,0.200,10,2,0.200,"double_consonant, drop_last, respell, split_word, swap_words, vowel_swap"
+subnet mask,networking,phrase,2,yes,10,2,0.200,10,2,0.200,"add_suffix, consonant_swap, merge_words, swap_words, vowel_swap"
+SQLi,security,acronym,1,yes,11,4,0.364,9,2,0.222,"consonant_swap, respell, vowel_swap"
+LAN,networking,acronym,1,yes,10,4,0.400,8,2,0.250,"consonant_swap, vowel_swap"
+NAS,hardware,acronym,1,yes,10,4,0.400,8,2,0.250,"consonant_swap, vowel_swap"
+NIC,networking,acronym,1,yes,10,4,0.400,8,2,0.250,"consonant_swap, respell, vowel_swap"
+RAM,hardware,acronym,1,yes,10,4,0.400,8,2,0.250,"consonant_swap, vowel_swap"
+SOC,security,acronym,1,yes,10,4,0.400,8,2,0.250,"consonant_swap, vowel_swap"
+NAC,security,acronym,1,yes,9,4,0.444,7,2,0.286,"consonant_swap, vowel_swap"
+WAF,security,acronym,1,yes,9,4,0.444,7,2,0.286,"consonant_swap, vowel_swap"
+WAN,networking,acronym,1,yes,9,4,0.444,7,2,0.286,"consonant_swap, vowel_swap"
+Ethernet frame,networking,phrase,2,yes,10,3,0.300,10,3,0.300,"double_consonant, drop_last, swap_words, vowel_swap"
+SSID,networking,acronym,1,yes,12,5,0.417,10,3,0.300,"respell, vowel_swap"
+WAN link,networking,phrase,2,yes,11,4,0.364,10,3,0.300,"add_suffix, double_consonant, merge_words, respell, swap_words"
+application gateway,networking,phrase,2,yes,10,3,0.300,10,3,0.300,"consonant_swap, drop_last, respell, split_word, swap_words"
+bandwidth-delay product,networking,phrase,3,yes,10,3,0.300,10,3,0.300,"consonant_swap, drop_last, respell, split_word, swap_words"
+certificate pinning,security,phrase,2,yes,10,3,0.300,10,3,0.300,"merge_words, respell, split_word, swap_words, vowel_swap"
+container registry,software,phrase,2,yes,10,3,0.300,10,3,0.300,"consonant_swap, double_consonant, drop_last, respell, split_word, swap_words"
+envelope encryption,security,phrase,2,yes,10,3,0.300,10,3,0.300,"consonant_swap, merge_words, split_word, swap_words, vowel_swap"
+next-generation firewall,security,phrase,3,yes,10,3,0.300,10,3,0.300,"add_suffix, consonant_swap, drop_last, merge_words, respell, swap_words"
+pass-the-ticket,security,phrase,3,yes,10,3,0.300,10,3,0.300,"add_suffix, consonant_swap, double_consonant, drop_filler, merge_words, swap_words"
+OAuth,security,single_word,1,yes,10,4,0.400,10,4,0.400,"consonant_swap, drop_last"
+hierarchical escalation,general,phrase,2,yes,10,4,0.400,10,4,0.400,"double_consonant, merge_words, swap_words, vowel_swap"
+multifactor authentication,security,phrase,2,yes,10,4,0.400,10,4,0.400,"drop_last, merge_words, swap_words, vowel_swap"
+server-side request forgery,security,phrase,4,yes,10,4,0.400,10,4,0.400,"drop_last, merge_words, split_word, swap_words"
+zero trust network access,security,phrase,4,yes,10,4,0.400,10,4,0.400,"consonant_swap, double_consonant, merge_words, respell, split_word"
+ICMP,networking,acronym,1,yes,12,7,0.583,10,5,0.500,"respell, vowel_swap"
+MAC address table,networking,phrase,3,yes,11,5,0.455,10,5,0.500,"merge_words, spell_token, vowel_swap"
+SNMP,networking,acronym,1,yes,10,6,0.600,8,4,0.500,consonant_swap
+Wi-Fi,networking,phrase,2,yes,2,1,0.500,2,1,0.500,swap_words
+certificate authority,security,phrase,2,yes,10,5,0.500,10,5,0.500,"drop_last, merge_words, swap_words, vowel_swap"
+certificate chain,security,phrase,2,yes,10,5,0.500,10,5,0.500,"drop_last, swap_words, vowel_swap"
+default gateway,networking,phrase,2,yes,10,5,0.500,10,5,0.500,"merge_words, split_word, swap_words"
+digital certificate,security,phrase,2,yes,10,5,0.500,10,5,0.500,"double_consonant, merge_words, split_word, swap_words"
+kernel panic,software,phrase,2,yes,10,5,0.500,10,5,0.500,"drop_last, respell, swap_words"
+living off the land,security,phrase,4,yes,10,5,0.500,10,5,0.500,"consonant_swap, double_consonant, drop_filler, drop_last"
+major incident,general,phrase,2,yes,10,5,0.500,10,5,0.500,"merge_words, respell, split_word, swap_words"
+major incident management,general,phrase,3,yes,10,5,0.500,10,5,0.500,"double_consonant, respell, vowel_swap"
+patch,software,single_word,1,yes,10,5,0.500,10,5,0.500,"consonant_swap, drop_last"
+Classless Inter-Domain Routing,networking,phrase,4,yes,10,6,0.600,10,6,0.600,"respell, split_word, swap_words"
+OCSP,security,acronym,1,yes,12,8,0.667,10,6,0.600,vowel_swap
+OSPF,networking,acronym,1,yes,12,8,0.667,10,6,0.600,vowel_swap
+PCAP,networking,acronym,1,yes,12,6,0.500,10,6,0.600,"spelled, spelled_alt"
+command injection,security,phrase,2,yes,10,6,0.600,10,6,0.600,"merge_words, respell, split_word, swap_words"
+container image,software,phrase,2,yes,10,6,0.600,10,6,0.600,"merge_words, swap_words"
+defense in depth,security,phrase,3,yes,10,6,0.600,10,6,0.600,"drop_filler, merge_words, split_word"
+spear phishing,security,phrase,2,yes,10,6,0.600,10,6,0.600,"double_consonant, merge_words, swap_words"
+two-factor authentication,security,phrase,3,yes,10,6,0.600,10,6,0.600,"drop_last, merge_words, swap_words"
+virtual machine,software,phrase,2,yes,10,6,0.600,10,6,0.600,"merge_words, split_word, swap_words"
+wireless access point,networking,phrase,3,yes,10,6,0.600,10,6,0.600,"merge_words, respell, split_word"
+workload identity,security,phrase,2,yes,10,6,0.600,10,6,0.600,"merge_words, respell, split_word, swap_words"
+CMDB,general,acronym,1,yes,10,7,0.700,8,5,0.625,
+CVSS,security,acronym,1,yes,10,7,0.700,8,5,0.625,
+SSRF,security,acronym,1,yes,10,7,0.700,8,5,0.625,
+DIMM,hardware,acronym,1,yes,12,9,0.750,10,7,0.700,consonant_swap
+EIGRP,networking,acronym,1,yes,12,7,0.583,10,7,0.700,"spelled, spelled_alt"
+IP address,networking,phrase,2,yes,11,7,0.636,10,7,0.700,"merge_words, spell_token"
+MAC address,networking,phrase,2,yes,11,7,0.636,10,7,0.700,"merge_words, spell_token, split_word"
+UEBA,security,acronym,1,yes,12,8,0.667,10,7,0.700,"consonant_swap, spelled"
+VLAN,networking,acronym,1,yes,12,9,0.750,10,7,0.700,consonant_swap
+attack surface reduction,security,phrase,3,yes,10,7,0.700,10,7,0.700,"double_consonant, drop_last, split_word"
+daemon,software,single_word,1,yes,10,7,0.700,10,7,0.700,drop_last
+data encryption key,security,phrase,3,yes,10,7,0.700,10,7,0.700,"merge_words, swap_words"
+denial-of-service attack,security,phrase,4,yes,10,7,0.700,10,7,0.700,"consonant_swap, merge_words, split_word"
+dependency resolution,software,phrase,2,yes,10,7,0.700,10,7,0.700,"merge_words, swap_words"
+firewall rule,security,phrase,2,yes,10,7,0.700,10,7,0.700,swap_words
+hard disk drive,hardware,phrase,3,yes,10,7,0.700,10,7,0.700,"double_consonant, drop_last, merge_words"
+incident response plan,security,phrase,3,yes,10,7,0.700,10,7,0.700,"add_suffix, consonant_swap, split_word"
+indicator of attack,security,phrase,3,yes,10,7,0.700,10,7,0.700,"merge_words, split_word"
+memory leak,software,phrase,2,yes,10,7,0.700,10,7,0.700,"merge_words, swap_words"
+package manager,software,phrase,2,yes,10,7,0.700,10,7,0.700,"merge_words, split_word"
+pass-the-hash,security,phrase,3,yes,10,7,0.700,10,7,0.700,"drop_filler, swap_words"
+priority matrix,general,phrase,2,yes,10,7,0.700,10,7,0.700,"merge_words, swap_words"
+race condition,security,phrase,2,yes,10,7,0.700,10,7,0.700,"merge_words, split_word, swap_words"
+security operations,security,phrase,2,yes,10,7,0.700,10,7,0.700,"merge_words, split_word, swap_words"
+self-service portal,general,phrase,3,yes,10,7,0.700,10,7,0.700,"consonant_swap, merge_words, split_word"
+service request,general,phrase,2,yes,10,7,0.700,10,7,0.700,"merge_words, split_word, swap_words"
+spanning tree,networking,phrase,2,yes,10,7,0.700,10,7,0.700,"split_word, swap_words"
+three-way handshake,networking,phrase,3,yes,10,7,0.700,10,7,0.700,"split_word, swap_words"
+zero-day vulnerability,security,phrase,3,yes,10,7,0.700,10,7,0.700,"split_word, swap_words"
+DHCP,networking,acronym,1,yes,8,6,0.750,7,5,0.714,
+CSRF,security,acronym,1,yes,10,8,0.800,8,6,0.750,
+NVMe,hardware,acronym,1,yes,11,9,0.818,9,7,0.778,
+BIOS,hardware,acronym,1,yes,12,10,0.833,10,8,0.800,respell
+Ethernet,networking,single_word,1,yes,10,8,0.800,10,8,0.800,
+IPsec,security,single_word,1,yes,10,8,0.800,10,8,0.800,
+LACP,networking,acronym,1,yes,12,10,0.833,10,8,0.800,
+LOTL,security,acronym,1,yes,12,10,0.833,10,8,0.800,
+VXLAN,networking,acronym,1,yes,12,10,0.833,10,8,0.800,
+attack surface,security,phrase,2,yes,10,8,0.800,10,8,0.800,"split_word, swap_words"
+authorization,security,single_word,1,yes,10,8,0.800,10,8,0.800,drop_last
+backup,general,single_word,1,yes,10,8,0.800,10,8,0.800,
+buffer overflow,software,phrase,2,yes,10,8,0.800,10,8,0.800,"split_word, swap_words"
+cache,software,single_word,1,yes,10,8,0.800,10,8,0.800,
+chain of custody,security,phrase,3,yes,10,8,0.800,10,8,0.800,split_word
+change enablement,general,phrase,2,yes,10,8,0.800,10,8,0.800,merge_words
+command and control,security,phrase,3,yes,10,8,0.800,10,8,0.800,"drop_filler, merge_words"
+command-line interface,software,phrase,3,yes,10,8,0.800,10,8,0.800,swap_words
+crash,general,single_word,1,yes,10,8,0.800,10,8,0.800,
+credential stuffing,security,phrase,2,yes,10,8,0.800,10,8,0.800,"split_word, swap_words"
+dependency injection,software,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+digital forensics,security,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+disk space,hardware,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+driver,hardware,single_word,1,yes,10,8,0.800,10,8,0.800,drop_last
+exponential backoff,networking,phrase,2,yes,10,8,0.800,10,8,0.800,merge_words
+federated identity,security,phrase,2,yes,10,8,0.800,10,8,0.800,"split_word, swap_words"
+garbage collection,software,phrase,2,yes,10,8,0.800,10,8,0.800,merge_words
+help desk,general,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+kernel,software,single_word,1,yes,10,8,0.800,10,8,0.800,
+key encryption key,security,phrase,3,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+knowledge base,general,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+lateral movement,security,phrase,2,yes,10,8,0.800,10,8,0.800,swap_words
+least privilege,security,phrase,2,yes,10,8,0.800,10,8,0.800,split_word
+load balancer,networking,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+managed identity,security,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+network access control,security,phrase,3,yes,10,8,0.800,10,8,0.800,split_word
+network interface controller,networking,phrase,3,yes,10,8,0.800,10,8,0.800,"respell, split_word"
+packet capture,networking,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+packet loss,networking,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+password spraying,security,phrase,2,yes,10,8,0.800,10,8,0.800,"split_word, swap_words"
+proxy,networking,single_word,1,yes,10,8,0.800,10,8,0.800,consonant_swap
+public key infrastructure,security,phrase,3,yes,10,8,0.800,10,8,0.800,"respell, split_word"
+random access memory,hardware,phrase,3,yes,10,8,0.800,10,8,0.800,merge_words
+reboot,general,single_word,1,yes,10,8,0.800,10,8,0.800,
+remote code execution,security,phrase,3,yes,10,8,0.800,10,8,0.800,split_word
+resolver group,general,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+root cause analysis,general,phrase,3,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+router,networking,single_word,1,yes,10,8,0.800,10,8,0.800,
+security operations center,security,phrase,3,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+segmentation fault,software,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+service level agreement,general,phrase,3,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+service level management,general,phrase,3,yes,10,8,0.800,10,8,0.800,split_word
+service mesh,software,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+service principal,security,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+source control,software,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+stack overflow,software,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+subnet,networking,single_word,1,yes,10,8,0.800,10,8,0.800,
+system call,software,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+threat actor,security,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+trunk port,networking,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+user and entity behavior analytics,security,phrase,5,yes,10,8,0.800,10,8,0.800,"merge_words, split_word"
+virtual environment,software,phrase,2,yes,10,8,0.800,10,8,0.800,merge_words
+vulnerability management,security,phrase,2,yes,10,8,0.800,10,8,0.800,merge_words
+zero trust,security,phrase,2,yes,10,8,0.800,10,8,0.800,"merge_words, swap_words"
+NGFW,security,acronym,1,yes,9,8,0.889,7,6,0.857,
+HDMI,hardware,acronym,1,yes,10,9,0.900,9,8,0.889,
+BSSID,networking,acronym,1,yes,12,11,0.917,10,9,0.900,
+Bluetooth,hardware,single_word,1,yes,10,9,0.900,10,9,0.900,
+Common Weakness Enumeration,security,phrase,3,yes,10,9,0.900,10,9,0.900,split_word
+Docker,software,single_word,1,yes,10,9,0.900,10,9,0.900,
+RAID,hardware,acronym,1,yes,12,11,0.917,10,9,0.900,
+SCSI,hardware,acronym,1,yes,12,11,0.917,10,9,0.900,
+UEFI,hardware,acronym,1,yes,12,11,0.917,10,9,0.900,
+WebAuthn,security,single_word,1,yes,10,9,0.900,10,9,0.900,drop_last
+access point,networking,phrase,2,yes,10,9,0.900,10,9,0.900,swap_words
+access port,networking,phrase,2,yes,10,9,0.900,10,9,0.900,swap_words
+attribute-based access control,security,phrase,4,yes,10,9,0.900,10,9,0.900,merge_words
+authentication,security,single_word,1,yes,10,9,0.900,10,9,0.900,drop_last
+average handle time,general,phrase,3,yes,10,9,0.900,10,9,0.900,split_word
+bootkit,security,single_word,1,yes,10,9,0.900,10,9,0.900,
+botnet,security,single_word,1,yes,10,9,0.900,10,9,0.900,
+client,networking,single_word,1,yes,10,9,0.900,10,9,0.900,
+content delivery network,networking,phrase,3,yes,10,9,0.900,10,9,0.900,split_word
+continuous deployment,software,phrase,2,yes,10,9,0.900,10,9,0.900,swap_words
+cross-site request forgery,security,phrase,4,yes,10,9,0.900,10,9,0.900,split_word
+directory traversal,security,phrase,2,yes,10,9,0.900,10,9,0.900,swap_words
+dynamic host configuration protocol,networking,phrase,4,yes,10,9,0.900,10,9,0.900,merge_words
+extended detection and response,security,phrase,4,yes,10,9,0.900,10,9,0.900,split_word
+hardware security module,security,phrase,3,yes,10,9,0.900,10,9,0.900,merge_words
+honeynet,security,single_word,1,yes,10,9,0.900,10,9,0.900,
+identity and access management,security,phrase,4,yes,10,9,0.900,10,9,0.900,split_word
+incident management,general,phrase,2,yes,10,9,0.900,10,9,0.900,split_word
+incident response,security,phrase,2,yes,10,9,0.900,10,9,0.900,swap_words
+indicator of compromise,security,phrase,3,yes,10,9,0.900,10,9,0.900,split_word
+insecure deserialization,security,phrase,2,yes,10,9,0.900,10,9,0.900,split_word
+intrusion detection system,security,phrase,3,yes,10,9,0.900,10,9,0.900,merge_words
+jitter,networking,single_word,1,yes,10,9,0.900,10,9,0.900,
+keepalive,networking,single_word,1,yes,10,9,0.900,10,9,0.900,
+key management service,security,phrase,3,yes,10,9,0.900,10,9,0.900,split_word
+keylogger,security,single_word,1,yes,10,9,0.900,10,9,0.900,
+latency,networking,single_word,1,yes,10,9,0.900,10,9,0.900,
+link aggregation,networking,phrase,2,yes,10,9,0.900,10,9,0.900,merge_words
+malware,security,single_word,1,yes,10,9,0.900,10,9,0.900,
+managed detection and response,security,phrase,4,yes,10,9,0.900,10,9,0.900,drop_filler
+network address translation,networking,phrase,3,yes,10,9,0.900,10,9,0.900,merge_words
+network segmentation,security,phrase,2,yes,10,9,0.900,10,9,0.900,split_word
+orchestration,software,single_word,1,yes,10,9,0.900,10,9,0.900,
+package repository,software,phrase,2,yes,10,9,0.900,10,9,0.900,split_word
+passkey,security,single_word,1,yes,10,9,0.900,10,9,0.900,
+penetration testing,security,phrase,2,yes,10,9,0.900,10,9,0.900,split_word
+phishing,security,single_word,1,yes,10,9,0.900,10,9,0.900,
+privileged access management,security,phrase,3,yes,10,9,0.900,10,9,0.900,merge_words
+problem management,general,phrase,2,yes,10,9,0.900,10,9,0.900,merge_words
+runtime environment,software,phrase,2,yes,10,9,0.900,10,9,0.900,merge_words
+security information and event management,security,phrase,5,yes,10,9,0.900,10,9,0.900,split_word
+server,networking,single_word,1,yes,10,9,0.900,10,9,0.900,
+service desk,general,phrase,2,yes,10,9,0.900,10,9,0.900,respell
+thermal throttling,hardware,phrase,2,yes,10,9,0.900,10,9,0.900,split_word
+threat intelligence,security,phrase,2,yes,10,9,0.900,10,9,0.900,split_word
+use-after-free,security,phrase,3,yes,10,9,0.900,10,9,0.900,swap_words
+virtual private network,networking,phrase,3,yes,10,9,0.900,10,9,0.900,merge_words
+vulnerability assessment,security,phrase,2,yes,10,9,0.900,10,9,0.900,merge_words
+Common Vulnerabilities and Exposures,security,phrase,4,yes,10,10,1.000,10,10,1.000,
+Common Vulnerability Scoring System,security,phrase,4,yes,10,10,1.000,10,10,1.000,
+Dockerfile,software,single_word,1,yes,10,10,1.000,10,10,1.000,
+ECC memory,hardware,phrase,2,yes,11,10,0.909,10,10,1.000,spell_token
+EtherChannel,networking,single_word,1,yes,10,10,1.000,10,10,1.000,
+HTTP Strict Transport Security,security,phrase,4,yes,11,10,0.909,10,10,1.000,spell_token
+Kubernetes,software,single_word,1,yes,10,10,1.000,10,10,1.000,
+TOCTOU,security,acronym,1,yes,12,10,0.833,10,10,1.000,"spelled, spelled_alt"
+bandwidth,networking,single_word,1,yes,10,10,1.000,10,10,1.000,
+bootloader,hardware,single_word,1,yes,10,10,1.000,10,10,1.000,
+certificate,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+chipset,hardware,single_word,1,yes,10,10,1.000,10,10,1.000,
+configuration item,general,phrase,2,yes,10,10,1.000,10,10,1.000,
+container,software,single_word,1,yes,10,10,1.000,10,10,1.000,
+containerization,software,single_word,1,yes,10,10,1.000,10,10,1.000,
+content security policy,security,phrase,3,yes,10,10,1.000,10,10,1.000,
+continuous integration,software,phrase,2,yes,10,10,1.000,10,10,1.000,
+credentials,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+database,software,single_word,1,yes,10,10,1.000,10,10,1.000,
+domain name system,networking,phrase,3,yes,10,10,1.000,10,10,1.000,
+electrostatic discharge,hardware,phrase,2,yes,10,10,1.000,10,10,1.000,
+encryption,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+endpoint,networking,single_word,1,yes,10,10,1.000,10,10,1.000,
+escalation,general,single_word,1,yes,10,10,1.000,10,10,1.000,
+exploit,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+firewall,networking,single_word,1,yes,10,10,1.000,10,10,1.000,
+firmware,hardware,single_word,1,yes,10,10,1.000,10,10,1.000,
+first contact resolution,general,phrase,3,yes,10,10,1.000,10,10,1.000,
+gateway,networking,single_word,1,yes,10,10,1.000,10,10,1.000,
+graphical user interface,software,phrase,3,yes,10,10,1.000,10,10,1.000,
+heatsink,hardware,single_word,1,yes,10,10,1.000,10,10,1.000,
+honeypot,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+hypervisor,hardware,single_word,1,yes,10,10,1.000,10,10,1.000,
+infrastructure as code,software,phrase,3,yes,10,10,1.000,10,10,1.000,
+intrusion prevention system,security,phrase,3,yes,10,10,1.000,10,10,1.000,
+key rotation,security,phrase,2,yes,10,10,1.000,10,10,1.000,
+localhost,networking,single_word,1,yes,10,10,1.000,10,10,1.000,
+microsegmentation,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+microservice,software,single_word,1,yes,10,10,1.000,10,10,1.000,
+motherboard,hardware,single_word,1,yes,10,10,1.000,10,10,1.000,
+operational level agreement,general,phrase,3,yes,10,10,1.000,10,10,1.000,
+port security,networking,phrase,2,yes,10,10,1.000,10,10,1.000,
+printer,hardware,single_word,1,yes,10,10,1.000,10,10,1.000,
+ransomware,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+restore,general,single_word,1,yes,10,10,1.000,10,10,1.000,
+rootkit,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+sandboxing,security,single_word,1,yes,10,10,1.000,10,10,1.000,
+solid-state drive,hardware,phrase,3,yes,10,10,1.000,10,10,1.000,
+subnetting,networking,single_word,1,yes,10,10,1.000,10,10,1.000,
+ticket,general,single_word,1,yes,10,10,1.000,10,10,1.000,
+version control system,software,phrase,3,yes,10,10,1.000,10,10,1.000,
+AHT,general,acronym,1,yes,2,2,1.000,0,0,,
+API,software,acronym,1,yes,1,1,1.000,0,0,,
+ARP,networking,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+ASR,security,acronym,1,yes,2,2,1.000,0,0,,
+BGP,networking,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+CLI,software,acronym,1,yes,2,2,1.000,0,0,,
+CPU,hardware,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+CRL,security,acronym,1,yes,2,2,1.000,0,0,,
+CSP,security,acronym,1,yes,2,2,1.000,0,0,,
+CVE,security,acronym,1,yes,2,2,1.000,0,0,,
+CWE,security,acronym,1,yes,2,2,1.000,0,0,,
+DNS,networking,acronym,1,yes,1,1,1.000,0,0,,
+FCR,general,acronym,1,yes,2,2,1.000,0,0,,
+GPU,hardware,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+GUI,software,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+HDD,hardware,acronym,1,yes,1,1,1.000,0,0,,
+IDE,software,acronym,1,yes,1,1,1.000,0,0,,
+IOA,security,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+IOC,security,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+IRP,security,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+ISP,networking,acronym,1,yes,1,1,1.000,0,0,,
+KCS,general,acronym,1,yes,2,2,1.000,0,0,,
+MDR,security,acronym,1,yes,2,2,1.000,0,0,,
+OLA,general,acronym,1,yes,2,2,1.000,0,0,,
+OS,software,acronym,1,yes,1,0,0.000,0,0,,spelled_alt
+RCE,security,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+RDP,networking,acronym,1,yes,2,2,1.000,0,0,,
+SDK,software,acronym,1,yes,1,1,1.000,0,0,,
+SLA,general,acronym,1,yes,2,2,1.000,0,0,,
+SQL,software,acronym,1,yes,2,2,1.000,0,0,,
+SSD,hardware,acronym,1,yes,1,1,1.000,0,0,,
+SSH,networking,acronym,1,yes,1,1,1.000,0,0,,
+SSL,security,acronym,1,yes,2,2,1.000,0,0,,
+SSO,security,acronym,1,yes,1,1,1.000,0,0,,
+TCP,networking,acronym,1,yes,2,0,0.000,0,0,,"spelled, spelled_alt"
+TLS,security,acronym,1,yes,2,2,1.000,0,0,,
+UDP,networking,acronym,1,yes,1,1,1.000,0,0,,
+URL,software,acronym,1,yes,2,2,1.000,0,0,,
+USB,hardware,acronym,1,yes,1,1,1.000,0,0,,
+VPN,networking,acronym,1,yes,1,1,1.000,0,0,,
+XSS,security,acronym,1,yes,2,2,1.000,0,0,,

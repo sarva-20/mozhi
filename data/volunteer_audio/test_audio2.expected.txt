@@ -1,0 +1,1 @@
+the LAN is fine but the WAN link to the RAID array keeps dropping

@@ -1,0 +1,13 @@
+# Live demo (streamlit_app.py). Install: pip install -r requirements-demo.txt
+# Run:     streamlit run streamlit_app.py
+#
+# Reuses the app dependencies and the faster-whisper pin from the existing files, so
+# versions cannot drift. Deliberately separate from requirements.txt, which the Docker
+# image installs; the image is unchanged.
+-r requirements.txt
+-r requirements-benchmark.txt
+
+# Streamlit 1.64 pulls starlette 1.x, which conflicts with fastapi==0.115.0
+# (needs starlette<0.39) and would break the FastAPI service. 1.56.0 resolves cleanly
+# against requirements.txt and provides st.audio_input.
+streamlit==1.56.0

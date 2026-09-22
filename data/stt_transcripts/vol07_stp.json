@@ -1,0 +1,8 @@
+{
+  "file": "vol07_stp.m4a",
+  "transcript": "The contractors laptop still hasn't been enrolled in device management. That laptop keeps blue-screening every time it waves from sleep. The new firewall policy is blocking traffic from our own office. The backup restore fine, but the indexes needs to be rebuilt. The onboarding checklist still references a tool we retailed last year. The storage array is nearly full, we should plan and upgrade soon. I think the certificate expired last night, that's why login is failing. The reporting service keeps running out of temp space during the export. Someone needs to double-check the retention policy before we delete anything. The email getaway is bouncing messages from that one domain again. Honestly, that's the cleanest fix we had all sprinted.",
+  "audio_duration_s": 48.0,
+  "transcription_time_s": 1.77,
+  "real_time_factor": 0.037,
+  "detected_language": "en"
+}

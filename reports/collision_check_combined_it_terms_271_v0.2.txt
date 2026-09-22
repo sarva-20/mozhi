@@ -1,0 +1,364 @@
+Collision check: combined_it_terms_271_v0.2.txt
+Existing dictionary: domain_terms.json
+Common-word reference: common_english_words.txt (10000 words)
+Threshold: 0.88
+Candidates: 271
+
+CLEAN (195)
+================================================================================
+  hypervisor
+  bootloader
+  solid-state drive
+  hard disk drive
+  random access memory
+  UEFI
+  NVMe
+  ECC memory
+  thermal throttling
+  power-on self-test
+  electrostatic discharge
+  virtual machine
+  package manager
+  dependency injection
+  dependency resolution
+  garbage collection
+  stack overflow
+  buffer overflow
+  segmentation fault
+  kernel panic
+  command-line interface
+  graphical user interface
+  runtime environment
+  virtual environment
+  package repository
+  version control system
+  source control
+  continuous integration
+  continuous deployment
+  container registry
+  Dockerfile
+  microservice
+  reverse proxy
+  default gateway
+  subnet mask
+  subnetting
+  Classless Inter-Domain Routing
+  IPv4
+  IPv6
+  MAC address table
+  ICMP
+  SNMP
+  OSPF
+  EIGRP
+  VLAN
+  VXLAN
+  LACP
+  EtherChannel
+  trunk port
+  port security
+  spanning tree
+  link aggregation
+  wireless access point
+  BSSID
+  WPA2
+  WPA3
+  802.11ax
+  packet capture
+  PCAP
+  round-trip time
+  jitter
+  bandwidth-delay product
+  exponential backoff
+  three-way handshake
+  TCP handshake
+  keepalive
+  network interface controller
+  network address translation
+  domain name system
+  dynamic host configuration protocol
+  content delivery network
+  virtual private network
+  certificate authority
+  public key infrastructure
+  digital certificate
+  OCSP stapling
+  OCSP
+  X.509
+  key management service
+  hardware security module
+  envelope encryption
+  data encryption key
+  key encryption key
+  identity and access management
+  role-based access control
+  attribute-based access control
+  least privilege
+  privileged access management
+  service principal
+  managed identity
+  workload identity
+  federated identity
+  single sign-on
+  multifactor authentication
+  one-time password
+  time-based one-time password
+  FIDO2
+  WebAuthn
+  passkey
+  zero trust
+  zero trust network access
+  network access control
+  NAC
+  endpoint detection and response
+  extended detection and response
+  security information and event management
+  security orchestration automation and response
+  user and entity behavior analytics
+  UEBA
+  security operations center
+  managed detection and response
+  security operations
+  threat intelligence
+  indicator of compromise
+  IOC
+  indicator of attack
+  threat actor
+  attack surface
+  attack surface reduction
+  vulnerability management
+  vulnerability assessment
+  penetration testing
+  zero-day vulnerability
+  Common Vulnerabilities and Exposures
+  Common Vulnerability Scoring System
+  CWE
+  Common Weakness Enumeration
+  remote code execution
+  cross-site scripting
+  XSS
+  cross-site request forgery
+  CSRF
+  server-side request forgery
+  command injection
+  directory traversal
+  insecure deserialization
+  use-after-free
+  TOCTOU
+  content security policy
+  HTTP Strict Transport Security
+  denial-of-service attack
+  web application firewall
+  WAF
+  next-generation firewall
+  NGFW
+  intrusion detection system
+  intrusion prevention system
+  network segmentation
+  microsegmentation
+  defense in depth
+  honeypot
+  honeynet
+  sandboxing
+  ransomware
+  rootkit
+  bootkit
+  keylogger
+  botnet
+  command and control
+  C2
+  living off the land
+  spear phishing
+  credential stuffing
+  password spraying
+  pass-the-hash
+  pass-the-ticket
+  privilege escalation
+  lateral movement
+  incident response
+  incident response plan
+  digital forensics
+  chain of custody
+  root cause analysis
+  escalation
+  functional escalation
+  hierarchical escalation
+  resolver group
+  service request
+  incident management
+  problem management
+  change enablement
+  configuration management database
+  CMDB
+  service level agreement
+  service level management
+  operational level agreement
+  knowledge-centered service
+  KCS
+  self-service portal
+  major incident
+  major incident management
+  priority matrix
+  first contact resolution
+  average handle time
+  AHT
+
+DUPLICATE (22)
+================================================================================
+  'firmware' — already exists as 'firmware' — skip
+  'motherboard' — already exists as 'motherboard' — skip
+  'CPU' — already exists as 'CPU' — skip
+  'GPU' — already exists as 'GPU' — skip
+  'BIOS' — already exists as 'BIOS' — skip
+  'RAID' — already exists as 'RAID' — skip
+  'memory leak' — already exists as 'memory leak' — skip
+  'API' — already exists as 'API' — skip
+  'SDK' — already exists as 'SDK' — skip
+  'IDE' — already exists as 'IDE' — skip
+  'Kubernetes' — already exists as 'Kubernetes' — skip
+  'load balancer' — already exists as 'load balancer' — skip
+  'IP address' — already exists as 'IP address' — skip
+  'MAC address' — already exists as 'MAC address' — skip
+  'TCP' — already exists as 'TCP' — skip
+  'UDP' — already exists as 'UDP' — skip
+  'SSH' — already exists as 'SSH' — skip
+  'TLS' — already exists as 'TLS' — skip
+  'SSL' — already exists as 'SSL' — skip
+  'malware' — already exists as 'malware' — skip
+  'phishing' — already exists as 'phishing' — skip
+  'SLA' — already exists as 'SLA' — skip
+
+FLAGGED (54)
+================================================================================
+  'chipset'
+    collides with 'chips' at 0.915
+  'heatsink'
+    collides with 'heating' at 0.901
+  'SATA'
+    collides with 'sat' at 0.944
+    collides with 'seat' at 0.885
+  'SCSI'
+    collides with 'scsi' at 1.000
+  'DIMM'
+    collides with 'dim' at 0.944
+  'containerization'
+    collides with 'contamination' at 0.892
+  'system call'
+    collides with 'system' at 0.883
+  'infrastructure as code'
+    collides with 'infrastructure' at 0.916
+  'container image'
+    collides with 'container' at 0.898
+  'orchestration'
+    collides with 'orchestra' at 0.913
+  'service mesh'
+    collides with 'services' at 0.899
+    collides with 'service' at 0.892
+  'application gateway'
+    collides with 'application' at 0.886
+  'ARP'
+    collides with 'ar' at 0.883
+  'PAT'
+    collides with 'pat' at 1.000
+  'RDP'
+    collides with 'rd' at 0.883
+  'BGP'
+    collides with 'bg' at 0.883
+  'STP'
+    collides with 'step' at 0.941
+    collides with 'stop' at 0.941
+    collides with 'smtp' at 0.908
+    collides with 'st' at 0.883
+  'access port'
+    collides with 'accessory' at 0.916
+    collides with 'accept' at 0.883
+  'access point'
+    collides with 'accessing' at 0.887
+  'SSID'
+    collides with 'said' at 0.885
+    collides with 'side' at 0.885
+  'Ethernet frame'
+    collides with 'ethernet' at 0.884
+  'packet loss'
+    collides with 'packets' at 0.916
+  'NIC'
+    collides with 'nick' at 0.944
+  'IPsec'
+    collides with 'ips' at 0.882
+  'certificate chain'
+    collides with 'certification' at 0.924
+    collides with 'certificate' at 0.912
+    collides with 'certificates' at 0.887
+  'certificate pinning'
+    collides with 'certificate' at 0.880
+  'CRL'
+    collides with 'carl' at 0.938
+    collides with 'ctrl' at 0.908
+    collides with 'carlo' at 0.895
+    collides with 'cr' at 0.883
+  'key rotation'
+    collides with 'rotation' at 0.902
+  'SOC'
+    collides with 'soc' at 1.000
+  'MDR'
+    collides with 'md' at 0.883
+  'IOA'
+    collides with 'io' at 0.919
+    collides with 'iowa' at 0.881
+  'ASR'
+    collides with 'as' at 0.883
+  'CVE'
+    collides with 'cave' at 0.938
+    collides with 'cove' at 0.938
+    collides with 'cv' at 0.919
+  'CVSS'
+    collides with 'cvs' at 0.944
+  'exploit'
+    collides with 'explicit' at 0.911
+  'RCE'
+    collides with 'race' at 0.938
+    collides with 'rice' at 0.938
+  'SQL injection'
+    collides with 'injection' at 0.887
+  'SQLi'
+    collides with 'sql' at 0.944
+  'SSRF'
+    collides with 'surf' at 0.885
+  'race condition'
+    collides with 'condition' at 0.881
+  'CSP'
+    collides with 'cs' at 0.883
+  'HSTS'
+    collides with 'hosts' at 0.951
+  'DDoS'
+    collides with 'dos' at 0.938
+    collides with 'does' at 0.885
+    collides with 'dose' at 0.885
+  'IDS'
+    collides with 'ids' at 1.000
+    collides with 'id' at 0.883
+  'IPS'
+    collides with 'ips' at 1.000
+    collides with 'ip' at 0.883
+  'firewall rule'
+    collides with 'firewall' at 0.900
+  'LOTL'
+    collides with 'lot' at 0.908
+  'IRP'
+    collides with 'ir' at 0.883
+  'service desk'
+    collides with 'services' at 0.919
+    collides with 'service' at 0.885
+  'help desk'
+    collides with 'helps' at 0.885
+  'configuration item'
+    collides with 'configuration' at 0.932
+    collides with 'configurations' at 0.910
+  'OLA'
+    collides with 'ol' at 0.919
+  'knowledge base'
+    collides with 'knowledge' at 0.896
+  'FCR'
+    collides with 'fc' at 0.883
+
+No terms were merged automatically.
+Review CLEAN and FLAGGED entries before manually updating data/domain_terms.json.

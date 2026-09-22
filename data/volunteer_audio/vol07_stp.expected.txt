@@ -1,0 +1,14 @@
+The contractor's laptop still hasn't been enrolled in device management.
+That laptop keeps blue-screening every time it wakes from sleep.
+The new firewall policy is blocking traffic from our own office.
+We think the incident was triggered by a stale cache entry.
+The backup restored fine, but the indexes need to be rebuilt.
+The onboarding checklist still references a tool we retired last year.
+The storage array is nearly full, we should plan an upgrade soon.
+I think the certificate expired last night, that's why login is failing.
+The reporting server keeps running out of temp space during the export.
+Someone needs to double check the retention policy before we delete anything.
+The email gateway is bouncing messages from that one domain again.
+Honestly that's the cleanest fix we've had all sprint.
+
+STP PAT XML CSV NAT ARP SOC

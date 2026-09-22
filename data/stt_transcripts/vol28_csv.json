@@ -1,0 +1,8 @@
+{
+  "file": "vol28_csv.mp3",
+  "transcript": "We need a rollback plan in case the diploma goes sideways. There is a good catch I hadn't thought about the HK's at all. The new switch configuration didn't get saved before the power clip. Nobody documented how the old con job was supposed to work. The vendors API changed the response format without any warning. The gateway seems to be rejecting the connections from the subnet. The password reset emails are landing in everyone's spam folder. The configuration drifted between environments again after the last change. The migration script left a few orphaned records in the old table. The QWER team found a registration in the search result function. We need to update the DHCP settings in the new router. The client wants to state a sub date before the change window closes.",
+  "audio_duration_s": 59.541,
+  "transcription_time_s": 2.207,
+  "real_time_factor": 0.037,
+  "detected_language": "en"
+}

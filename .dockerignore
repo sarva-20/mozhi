@@ -1,0 +1,4 @@
+# Raw volunteer voice recordings and their transcripts are evaluation data, not
+# runtime data. The Dockerfile does `COPY data/ data/`, so without this they
+# would be baked into the image.
+data/volunteer_audio/

@@ -1,0 +1,8 @@
+{
+  "file": "vol09_lan.m4a",
+  "transcript": "Someone accidentally deleted the staging database this morning. The gateway seems to be rejecting connections from the subnet. The new internet accidentally first pushed over the main branch. We should probably achieve those old logs before the disk fills up. That's a fair point. We should raise it in tomorrow's stand-up. The mobile app crashes on launch for anyone on the older OS version. The ticket got auto-closed before anyone actually resolved it. The client wants a status update before the change window closes. We are seeing packet loss on the link between the two data centers. The red replica fell behind after the schema changed last night. The staging environment is out of sync with production again. The change request needs sign-off before it goes to the reboot.",
+  "audio_duration_s": 51.627,
+  "transcription_time_s": 1.805,
+  "real_time_factor": 0.035,
+  "detected_language": "en"
+}

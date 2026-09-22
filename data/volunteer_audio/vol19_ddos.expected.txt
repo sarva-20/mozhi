@@ -1,0 +1,14 @@
+I think the outage was caused by a misconfigured load balancer rule.
+We should probably archive those old logs before the disk fills up.
+The contractor's laptop still hasn't been enrolled in device management.
+Someone should check if that outage affected billing as well.
+We need to update the DHCP settings on the new router.
+Someone should verify the disaster recovery site actually failed over correctly.
+That's a good catch, I hadn't thought about the edge case at all.
+That's honestly a cleaner way to structure the config files.
+That laptop keeps blue-screening every time it wakes from sleep.
+The new firewall policy is blocking traffic from our own office.
+That workaround is fine for now, but we should fix the root cause eventually.
+The onboarding script fails silently if the username has a space in it.
+
+DDoS SDK API HTTPS LDAP LAN NoSQL

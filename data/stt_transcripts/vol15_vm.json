@@ -1,0 +1,8 @@
+{
+  "file": "vol15_vm.m4a",
+  "transcript": "The scanner keeps flagging the same false positive every week. The change request needs sign-off before it goes to the review board. We finally traced the slowdown to an un-indexed query in reporting. The token expired mid-session, so the upload silently failed. The scheduled reboot didn't actually apply the pending updates. The new laptop image still has the old antivirus client bundled in. The staging environment is out of sync with the production again. When you double-check the submit mask on the new server, we think the incident was triggered by a still cache entry. The audio trial shows someone's rate at those records on purpose. However, uptime dropped down below the promise threshold this quarter. The gateway seems to be rejecting connections from the sub-set.",
+  "audio_duration_s": 48.853,
+  "transcription_time_s": 1.868,
+  "real_time_factor": 0.038,
+  "detected_language": "en"
+}

@@ -1,0 +1,51 @@
+Generated: 2026-09-21 22:39:34
+Host: Darwin arm64
+Command: PYTHONPATH=. python3 scripts/latency_benchmark.py
+Corpus: tests/batch_cases.py as of the letter-composition change (34 sentences: the original 28 + 6 added).
+NOTE: not directly comparable to earlier figures taken on the 28-sentence corpus; see the A/B section below for the like-for-like composer overhead.
+
+Sentences: 34   Runs per sentence: 20   Total calls: 680
+  min:    10.793 ms
+  mean:   24.656 ms
+  median: 24.191 ms
+  p95:    37.511 ms
+  p99:    38.248 ms
+  max:    38.548 ms
+
+----------------------------------------------------------------------
+A/B: letter-composition pre-pass ON vs OFF (like-for-like)
+----------------------------------------------------------------------
+Method: original 28 batch cases only (the 6 added composition cases excluded so
+the corpus is identical to before the change). Each sentence timed with the
+composer ON and OFF back to back, arm order alternated each round, 30 rounds.
+"OFF" replaces pipeline.compose_letter_acronym_spans with a no-op returning [];
+everything else is identical. Latency is CorrectionResult.elapsed_ms
+(time.perf_counter inside correct_text). Throwaway script, not part of the repo.
+
+Original 28 cases x 30 interleaved rounds = 840 paired calls (ms)
+  composer OFF: mean  24.573  median  24.070  p95  37.841  p99  38.779
+  composer ON : mean  24.569  median  24.117  p95  37.895  p99  38.812
+  paired mean difference (ON - OFF): -0.0035 ms  (-0.01% of OFF mean)
+  paired diff stdev: 0.7979 ms   -> stderr of mean: 0.0275 ms
+  composer pre-pass alone, per sentence: mean 0.0028 ms  max 0.0052 ms
+
+Reading: the difference is within noise (|-0.0035| << stderr 0.0275). The
+composer's added work is ~0.003 ms per sentence (dict lookups only), and
+max_window is unchanged so the fuzzy loop is not widened.
+
+----------------------------------------------------------------------
+Addendum: pre-pass cost after punctuation handling (gate G5) was added
+----------------------------------------------------------------------
+G5 makes the pipeline compute tokenizer.separators() once per call and pass a
+gap slice to the composer at every start position. The A/B above predates G5 and
+swaps only the composer call, so it does not capture that extra work. Measured
+directly instead: the whole composer pre-pass INCLUDING separators(), per
+sentence, original 28 batch cases, 300 repetitions each (throwaway script):
+
+  separators + composer pre-pass: mean 0.0072 ms  max 0.0138 ms
+  (before G5, composer pre-pass alone: mean 0.0028 ms  max 0.0052 ms)
+
+Reading: ~0.007 ms added per sentence, about 0.03% of the 24.66 ms mean. This is
+a direct measurement of the added work, not a paired ON/OFF A/B; the end-to-end
+mean was not re-run after G5. max_window is unchanged, so the fuzzy loop is not
+widened.

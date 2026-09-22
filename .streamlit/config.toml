@@ -1,0 +1,11 @@
+[theme]
+primaryColor = "#0f766e"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 25
+
+[browser]
+gatherUsageStats = false

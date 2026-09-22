@@ -1,0 +1,43 @@
+Generated: 2026-09-21 22:42:14
+Host: Darwin arm64
+
+=== 1. Static import scan (app/*.py) ===
+  __init__.py          [CLEAN]  imports: (none)
+  acronym_map.py       [CLEAN]  imports: (none)
+  dictionary.py        [CLEAN]  imports: json, pathlib, functools
+  letter_composer.py   [CLEAN]  imports: app.dictionary
+  main.py              [CLEAN]  imports: fastapi, pydantic, app.pipeline
+  pipeline.py          [CLEAN]  imports: time, dataclasses, app.tokenizer, app.dictionary, app.scorer, app.acronym_map, app.letter_composer
+  scorer.py            [CLEAN]  imports: jellyfish, rapidfuzz
+  tokenizer.py         [CLEAN]  imports: re, dataclasses
+  Result: PASS - no ML/network imports found
+
+=== 2. Runtime network block (socket monkeypatched to raise) ===
+  Ran all 34 batch sentences through correct_text() with socket.socket
+  patched to raise on any call - zero connection attempts were made.
+  Result: PASS
+
+=== 3. GPU check ===
+  GPU-capable libraries loaded in process: none
+  CUDA_VISIBLE_DEVICES: None
+  nvidia-smi present on host: False
+  (no GPU hardware on this host - can't query GPU memory directly, but
+   absence of any GPU library import means none could be used regardless.)
+  Result: PASS
+
+=== 4. CPU/RAM profiling ===
+  Batch: 34 sentences x 50 iterations = 1700 calls
+  Wall time:        41.960 s  (24.682 ms/call)
+  Process CPU time: 41.937 s (user+sys)
+  RSS before:       22.23 MB
+  RSS after:        22.23 MB
+  RSS delta:        +0.00 MB
+  (No growth expected beyond normal Python/GC noise - there is no model
+   state, cache, or buffer that should accumulate across calls.)
+
+=== Summary ===
+  static_imports: PASS
+  no_network: PASS
+  no_gpu: PASS
+
+Overall: ALL CHECKS PASS

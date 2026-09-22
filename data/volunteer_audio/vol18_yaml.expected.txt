@@ -1,0 +1,14 @@
+The client keeps getting logged out every fifteen minutes for no reason.
+We need to whitelist that IP before the integration test will pass.
+The old ticketing system is being retired at the end of the quarter.
+We should probably automate that manual restart step.
+Can you check if the license renewed, everyone's getting locked out.
+The ticket says the printer driver isn't installing on the new laptops.
+The old server room still isn't on the new cooling schedule.
+We're not sure if the outage was on our end or the provider's.
+Can someone confirm the maintenance ticket actually went through?
+We're not sure if that's a browser caching issue or a real bug.
+The new employee still can't print from the third floor.
+The help desk is backed up because of the outage earlier.
+
+YAML URI URL HSTS CSV SATA JWT

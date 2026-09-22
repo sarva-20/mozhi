@@ -1,0 +1,8 @@
+{
+  "file": "vol24_ddos.mp3",
+  "transcript": "The dashboard weight, which it keeps throwing an error on refresh, we are not sure if that's a browse for catching issue or a real-time bug. The vendor's data speed still says everything is operational. We finally trace the slow down to an unindexed query in reporting. We think the incident was triggered by a scale of catch entry. The encryption key needs to be rotated before the audit. The audit trail should show someone deleted the records on the purpose. We are seeing many leaks whenever the bad chop hits an overnight. The storage area is nearly full, we should plan upgrades soon. The new laptop image still has old antivirus client bundled in. Someone needs to remove the domain before it lapses next week. We should probably automate the manual restore system.",
+  "audio_duration_s": 54.464,
+  "transcription_time_s": 1.925,
+  "real_time_factor": 0.035,
+  "detected_language": "en"
+}

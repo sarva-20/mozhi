@@ -1,0 +1,14 @@
+Someone should check if the replication lag is affecting reporting.
+The reporting server keeps running out of temp space during the export.
+The scheduled job overlapped with the backup window and locked the table.
+The build broke because a dependency wasn't resolved correctly.
+We think the outage was regional, not just our data center.
+Can you confirm the new hire's badge access was set up correctly?
+Our uptime dropped below the promised threshold this quarter.
+That's actually the third time this exact ticket has been reopened.
+Someone needs to close out that incident ticket from last Friday.
+The email gateway is bouncing messages from that one domain again.
+Honestly that's the cleanest fix we've had all sprint.
+The support team needs read access to that log bucket.
+
+API URI FTP UAT CPU TLS HSTS

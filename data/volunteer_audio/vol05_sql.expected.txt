@@ -1,0 +1,14 @@
+The escalation should have gone to tier two, not the front desk.
+The help desk is backed up because of the outage earlier.
+Can you check if the license renewed, everyone's getting locked out.
+The API keeps timing out whenever the payload gets too large.
+Someone needs to update the runbook, half the steps are outdated.
+Someone accidentally disabled two-factor for the whole finance team.
+That workaround is fine for now, but we should fix the root cause eventually.
+The password reset emails are landing in everyone's spam folder.
+We're not sure if that's a browser caching issue or a real bug.
+We noticed the checksum didn't match after the file transfer.
+Can you restart the Docker container and see if that clears it up?
+The support chatbot keeps giving customers the wrong reset link.
+
+SQL JWT UEFI SAML SOAP SFTP RAM

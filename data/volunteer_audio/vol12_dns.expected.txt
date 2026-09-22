@@ -1,0 +1,14 @@
+The client's proxy is stripping headers our service depends on.
+Can you confirm the new hire's badge access was set up correctly?
+The new hire still doesn't have access to the shared drive.
+I think we're hitting a rate limit on the third-party service.
+That fix works locally but breaks in the containerized environment.
+The onboarding checklist still references a tool we retired last year.
+I restarted the service but the queue is still backed up.
+The read replica fell behind after the schema change last night.
+The client's network team blocked our outbound requests by mistake.
+I think the certificate expired last night, that's why login is failing.
+The firewall rule change didn't get pushed to the branch office router.
+Someone needs to double check the retention policy before we delete anything.
+
+DNS SSH DMZ ORM CI BIOS VPN

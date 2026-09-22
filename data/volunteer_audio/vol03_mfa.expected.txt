@@ -1,0 +1,14 @@
+The scheduled reboot didn't actually apply the pending updates.
+We rolled back the release because the checkout flow was throwing errors.
+The monitoring dashboard hasn't updated in almost twenty minutes.
+The new switch hasn't shown up in the network inventory yet.
+The webhook stopped firing after we rotated the signing secret.
+Someone needs to check why the antivirus keeps quarantining that installer.
+The vendor's API changed the response format without any warning.
+Nobody documented how the old cron job was supposed to work.
+We need to update the DHCP settings on the new router.
+The config drifted between environments again after the last change.
+Someone needs to review the access logs from that suspicious login.
+The support team needs read access to that log bucket.
+
+MFA TLS OAuth IOPS FTP QA SDK

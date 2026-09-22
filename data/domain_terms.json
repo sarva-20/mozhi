@@ -1,0 +1,1601 @@
+{
+  "domain": "tech_support",
+  "version": "0.1",
+  "terms": [
+    {
+      "term": "SSD",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "HDD",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "RAM",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "CPU",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "GPU",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "BIOS",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "HDMI",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "USB",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "motherboard",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "firmware",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "API",
+      "category": "software",
+      "is_acronym": true
+    },
+    {
+      "term": "SDK",
+      "category": "software",
+      "is_acronym": true
+    },
+    {
+      "term": "IDE",
+      "category": "software",
+      "is_acronym": true
+    },
+    {
+      "term": "GUI",
+      "category": "software",
+      "is_acronym": true
+    },
+    {
+      "term": "CLI",
+      "category": "software",
+      "is_acronym": true
+    },
+    {
+      "term": "URL",
+      "category": "software",
+      "is_acronym": true
+    },
+    {
+      "term": "DNS",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "DHCP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "VPN",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "IP address",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "firewall",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "router",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "subnet",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "gateway",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "latency",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "bandwidth",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "SSH",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "TCP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "UDP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "SSL",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "TLS",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "OAuth",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "two-factor authentication",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "malware",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "phishing",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "encryption",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "cache",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "kernel",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "daemon",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "container",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "Kubernetes",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "Docker",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "reboot",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "ticket",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "SLA",
+      "category": "general",
+      "is_acronym": true
+    },
+    {
+      "term": "SSO",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "LAN",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "WAN",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "WAN link",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "Wi-Fi",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "Bluetooth",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "Ethernet",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "OS",
+      "category": "software",
+      "is_acronym": true
+    },
+    {
+      "term": "RAID",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "NAS",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "ISP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "MAC address",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "localhost",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "endpoint",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "backup",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "restore",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "database",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "SQL",
+      "category": "software",
+      "is_acronym": true
+    },
+    {
+      "term": "server",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "client",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "proxy",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "load balancer",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "credentials",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "authentication",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "authorization",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "certificate",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "crash",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "memory leak",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "disk space",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "printer",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "driver",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "patch",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "hypervisor",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "bootloader",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "chipset",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "heatsink",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "solid-state drive",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "hard disk drive",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "random access memory",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "UEFI",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "NVMe",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "SCSI",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "DIMM",
+      "category": "hardware",
+      "is_acronym": true
+    },
+    {
+      "term": "ECC memory",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "thermal throttling",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "power-on self-test",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "electrostatic discharge",
+      "category": "hardware",
+      "is_acronym": false
+    },
+    {
+      "term": "virtual machine",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "containerization",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "package manager",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "dependency injection",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "dependency resolution",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "garbage collection",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "stack overflow",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "buffer overflow",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "segmentation fault",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "kernel panic",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "system call",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "command-line interface",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "graphical user interface",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "runtime environment",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "virtual environment",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "package repository",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "version control system",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "source control",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "continuous integration",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "continuous deployment",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "infrastructure as code",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "container image",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "container registry",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "orchestration",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "Dockerfile",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "microservice",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "service mesh",
+      "category": "software",
+      "is_acronym": false
+    },
+    {
+      "term": "reverse proxy",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "application gateway",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "default gateway",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "subnet mask",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "subnetting",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "Classless Inter-Domain Routing",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "IPv4",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "IPv6",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "MAC address table",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "ARP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "ICMP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "SNMP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "RDP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "BGP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "OSPF",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "EIGRP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "VLAN",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "VXLAN",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "LACP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "EtherChannel",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "trunk port",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "access port",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "port security",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "spanning tree",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "link aggregation",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "wireless access point",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "access point",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "SSID",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "BSSID",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "WPA2",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "WPA3",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "802.11ax",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "Ethernet frame",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "packet capture",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "PCAP",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "packet loss",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "round-trip time",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "jitter",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "bandwidth-delay product",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "exponential backoff",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "three-way handshake",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "TCP handshake",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "keepalive",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "network interface controller",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "NIC",
+      "category": "networking",
+      "is_acronym": true
+    },
+    {
+      "term": "network address translation",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "domain name system",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "dynamic host configuration protocol",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "content delivery network",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "virtual private network",
+      "category": "networking",
+      "is_acronym": false
+    },
+    {
+      "term": "IPsec",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "certificate authority",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "public key infrastructure",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "digital certificate",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "certificate chain",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "certificate pinning",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "OCSP stapling",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "OCSP",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "CRL",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "X.509",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "key management service",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "hardware security module",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "key rotation",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "envelope encryption",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "data encryption key",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "key encryption key",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "identity and access management",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "role-based access control",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "attribute-based access control",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "least privilege",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "privileged access management",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "service principal",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "managed identity",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "workload identity",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "federated identity",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "single sign-on",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "multifactor authentication",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "one-time password",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "time-based one-time password",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "FIDO2",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "WebAuthn",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "passkey",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "zero trust",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "zero trust network access",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "network access control",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "NAC",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "endpoint detection and response",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "extended detection and response",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "security information and event management",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "security orchestration automation and response",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "user and entity behavior analytics",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "UEBA",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "security operations center",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "SOC",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "managed detection and response",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "MDR",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "security operations",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "threat intelligence",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "indicator of compromise",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "IOC",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "indicator of attack",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "IOA",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "threat actor",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "attack surface",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "attack surface reduction",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "ASR",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "vulnerability management",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "vulnerability assessment",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "penetration testing",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "zero-day vulnerability",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "CVE",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "Common Vulnerabilities and Exposures",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "CVSS",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "Common Vulnerability Scoring System",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "CWE",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "Common Weakness Enumeration",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "exploit",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "remote code execution",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "RCE",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "SQL injection",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "SQLi",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "cross-site scripting",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "XSS",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "cross-site request forgery",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "CSRF",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "server-side request forgery",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "SSRF",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "command injection",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "directory traversal",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "insecure deserialization",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "use-after-free",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "race condition",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "TOCTOU",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "content security policy",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "CSP",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "HTTP Strict Transport Security",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "denial-of-service attack",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "web application firewall",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "WAF",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "next-generation firewall",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "NGFW",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "intrusion detection system",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "intrusion prevention system",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "firewall rule",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "network segmentation",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "microsegmentation",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "defense in depth",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "honeypot",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "honeynet",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "sandboxing",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "ransomware",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "rootkit",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "bootkit",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "keylogger",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "botnet",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "command and control",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "C2",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "living off the land",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "LOTL",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "spear phishing",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "credential stuffing",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "password spraying",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "pass-the-hash",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "pass-the-ticket",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "privilege escalation",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "lateral movement",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "incident response",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "incident response plan",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "IRP",
+      "category": "security",
+      "is_acronym": true
+    },
+    {
+      "term": "digital forensics",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "chain of custody",
+      "category": "security",
+      "is_acronym": false
+    },
+    {
+      "term": "root cause analysis",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "escalation",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "functional escalation",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "hierarchical escalation",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "resolver group",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "service desk",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "help desk",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "service request",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "incident management",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "problem management",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "change enablement",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "configuration item",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "configuration management database",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "CMDB",
+      "category": "general",
+      "is_acronym": true
+    },
+    {
+      "term": "service level agreement",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "service level management",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "operational level agreement",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "OLA",
+      "category": "general",
+      "is_acronym": true
+    },
+    {
+      "term": "knowledge base",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "knowledge-centered service",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "KCS",
+      "category": "general",
+      "is_acronym": true
+    },
+    {
+      "term": "self-service portal",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "major incident",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "major incident management",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "priority matrix",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "first contact resolution",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "FCR",
+      "category": "general",
+      "is_acronym": true
+    },
+    {
+      "term": "average handle time",
+      "category": "general",
+      "is_acronym": false
+    },
+    {
+      "term": "AHT",
+      "category": "general",
+      "is_acronym": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Can we schedule a maintenance window for the database migration?
+The QA team found a regression in the search results ranking.
+The backup restored fine, but the indexes need to be rebuilt.
+That report took forever to run, the query needs an index.
+We should stagger the update rollout instead of pushing it everywhere at once.
+Nobody documented how the old cron job was supposed to work.
+Someone accidentally deleted the staging database this morning.
+The test environment doesn't have the same data volume as production.
+We're seeing a memory leak whenever the batch job runs overnight.
+The migration script left a few orphaned records in the old table.
+The report generator times out whenever the date range is too wide.
+The client wants a status update before the change window closes.
+
+SFTP QA NAS CVE SMTP SIEM SOAP

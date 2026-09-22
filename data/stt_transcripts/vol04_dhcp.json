@@ -1,0 +1,8 @@
+{
+  "file": "vol04_dhcp.m4a",
+  "transcript": "Someone needs to renew the domain before it lapses next week. The dashboard widget keeps throwing an error on refresh. Someone should check if that outage affected billing as well. Can we schedule a maintenance window for the database migration? Can someone confirm the maintenance ticket actually went through? The QA team found a regression in the search results ranking. We finally traced the slowdown to an unindexed query in reporting. We are seeing a memory leak whenever the batch job runs overnight. Someone needs to close out the incident ticket from last Friday. The shared calendar invite didn't sink to half the attendees. The van linked to the branch office keeps dropping every afternoon. That's actually the third time this exact ticket has been reopened.",
+  "audio_duration_s": 48.533,
+  "transcription_time_s": 1.73,
+  "real_time_factor": 0.036,
+  "detected_language": "en"
+}

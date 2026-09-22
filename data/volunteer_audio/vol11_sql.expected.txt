@@ -1,0 +1,14 @@
+The token expired mid-session, so the upload silently failed.
+The scanner keeps flagging that same false positive every week.
+The new laptop image still has the old antivirus client bundled in.
+We need to whitelist that IP before the integration test will pass.
+That's actually a really good idea, let's go with it.
+The support queue jumped overnight, must be tied to that outage.
+The build broke because a dependency wasn't resolved correctly.
+The support rep escalated it before even trying to reproduce the issue.
+The proxy is caching stale responses even after we cleared it.
+I think the outage was caused by a misconfigured load balancer rule.
+The ticket says the printer driver isn't installing on the new laptops.
+The report generator times out whenever the date range is too wide.
+
+SQL HTTP RAID JSON SNMP SLA CPU

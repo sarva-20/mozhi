@@ -1,0 +1,14 @@
+The VPN client won't connect from home for half the team today.
+The shared inbox rules got overwritten during the mailbox migration.
+We're seeing packet loss on the link between the two data centers.
+We rolled back the release because the checkout flow was throwing errors.
+The support team needs read access to that log bucket.
+The vendor's status page still says everything is operational.
+The proxy is caching stale responses even after we cleared it.
+The ticket got auto-closed before anyone actually resolved it.
+The new switch config didn't get saved before the power blip.
+The support chatbot keeps giving customers the wrong reset link.
+The vendor's API changed the response format without any warning.
+Can you check whether the load test numbers actually match production traffic?
+
+CD SSL CDN MFA TLS SSO PAT

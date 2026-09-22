@@ -1,0 +1,8 @@
+{
+  "file": "vol22_sql.mp3",
+  "transcript": "The scheduled job overlapped with the backup window unloved on the table, someone accidentally disabled the capacitor for the whole financity. The configuration drifted between environments and again, after the last change. The API keeps timing out whenever the payloads get too large, we need to add payload management. The manager monitoring dashboard hasn't updated almost 20 minutes. The encryption keys needs to be restored before the audit. Someone needs to update the rulebook and half the steps are outdated. The IDE crashed twice while I debugging the function. The not nightly sync job failed silently for almost a week and before anyone noticed. Can you restart the Docker container and see if it clears it up? The client's proxy is stripping headers and our services depends on. We are thinking, wishing email got passed the filter because of the type of domain.",
+  "audio_duration_s": 64.064,
+  "transcription_time_s": 2.397,
+  "real_time_factor": 0.037,
+  "detected_language": "en"
+}

@@ -1,0 +1,14 @@
+The dashboard widget keeps throwing an error on refresh.
+We're not sure if that's a browser caching issue or a real bug.
+The vendor's status page still says everything is operational.
+We finally traced the slowdown to an unindexed query in reporting.
+We think the incident was triggered by a stale cache entry.
+The encryption keys need to be rotated before the audit.
+The audit trail shows someone deleted those records on purpose.
+We're seeing a memory leak whenever the batch job runs overnight.
+The storage array is nearly full, we should plan an upgrade soon.
+The new laptop image still has the old antivirus client bundled in.
+Someone needs to renew the domain before it lapses next week.
+We should probably automate that manual restart step.
+
+DDoS SATA HTTPS CRUD IAM QA DMZ

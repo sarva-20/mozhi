@@ -1,0 +1,14 @@
+The scanner keeps flagging that same false positive every week.
+That change request needs sign-off before it goes to the review board.
+We finally traced the slowdown to an unindexed query in reporting.
+The token expired mid-session, so the upload silently failed.
+The scheduled reboot didn't actually apply the pending updates.
+The new laptop image still has the old antivirus client bundled in.
+The staging environment is out of sync with production again.
+Can you double check the subnet mask on that new server?
+We think the incident was triggered by a stale cache entry.
+The audit trail shows someone deleted those records on purpose.
+Our uptime dropped below the promised threshold this quarter.
+The gateway seems to be rejecting connections from that subnet.
+
+VM VLAN IMAP STP NAT POP3 RAM

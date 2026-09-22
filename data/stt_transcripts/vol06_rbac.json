@@ -1,0 +1,8 @@
+{
+  "file": "vol06_rbac.m4a",
+  "transcript": "That's honestly a cleaner way to structure the config files. The migration script left a few often records in the old table. Someone left the debug blogging turned on in prod that's filling up the disk. Can we double check the subnet mask on the new server? We are still waiting on the vendor to confirm the maintenance window. The news which config didn't get saved before the power blip. The old ticketing system is being retired at the end of the quatter. We are not seeing the new build reflected on the staging server yet. The audit trail shows someone deleted those records on purpose. Can we get someone from networking on this call? It's their subnet. Can you confirm the new hires batch access was set up correctly? The old server room still isn't on the new cooling schedule.",
+  "audio_duration_s": 49.813,
+  "transcription_time_s": 1.886,
+  "real_time_factor": 0.038,
+  "detected_language": "en"
+}
