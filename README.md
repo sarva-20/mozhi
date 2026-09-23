@@ -1,8 +1,6 @@
 # 🗣️ Mozhi
 ### *A phonetic correction layer for speech-to-text — because "we should meet at 3 pm" shouldn't turn into "we should meat at freepy."*
 
-> Final Year Project — B.E. Computer Science and Business Systems, KPR Institute of Engineering and Technology
-
 ---
 
 ## 📖 What Is Mozhi?
