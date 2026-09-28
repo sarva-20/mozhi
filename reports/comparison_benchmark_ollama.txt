@@ -1,0 +1,86 @@
+Generated: 2026-09-28 20:44:44
+Host: Darwin arm64
+
+Backend: Ollama (http://localhost:11434, model=llama3.1:8b)
+Sentences: 34
+Prompt template: 'Correct any technical/domain-specific terminology transcription errors in the following text. Return only the corrected text, no explanation: {text}'
+
+  [1/34] [  481.8ms] [MISS] 'please check the sea pu usage' -> 'Please check sea level pressure usage'  (expected: CPU)
+  [2/34] [  412.7ms] [MISS] 'increase the ess ess dee capacity' -> 'Increase the SDSL capacity'  (expected: SSD)
+  [3/34] [  540.3ms] [MISS] 'the vee pea en keeps dropping' -> 'The Veepee network keeps dropping'  (expected: VPN)
+  [4/34] [  375.2ms] [MISS] 'check the aitch dee dee health' -> 'check the ADHD health'  (expected: HDD)
+  [5/34] [  374.7ms] [OK  ] 'connect over ess ess aitch tonight' -> 'connect over ssh tonight'  (expected: SSH)
+  [6/34] [  419.0ms] [OK  ] 'renew the ess ess ell certificate' -> 'renew the SSL certificate'  (expected: SSL, certificate)
+  [7/34] [  966.7ms] [MISS] 'the oh ess needs an update' -> 'The OES (Optical Enchancement System) needs an update.'  (expected: OS)
+  [8/34] [  425.9ms] [MISS] 'check the eye ess pea outage' -> 'check the IP address outage'  (expected: ISP)
+  [9/34] [  426.5ms] [MISS] 'query it with ess cue ell' -> 'query it with esc key'  (expected: SQL)
+  [10/34] [  615.0ms] [MISS] 'look up the em ay see for that device' -> 'Look up the EMR for that device.'  (expected: MAC address)
+  [11/34] [  664.7ms] [MISS] 'the vee ell ay en is misconfigured' -> 'the vee ell eee en is misconfigured'  (expected: VLAN)
+  [12/34] [  710.6ms] [MISS] 'check the double you ay en link' -> 'check the dual-channel (or dual-link) monitor connection'  (expected: WAN)
+  [13/34] [  421.3ms] [MISS] 'open the ess cue ell eye report' -> 'Open the Excel eye report'  (expected: SQLi)
+  [14/34] [  424.8ms] [MISS] 'we saw the ex ess ess attack' -> 'We saw the excess attack'  (expected: XSS)
+  [15/34] [  373.2ms] [MISS] 'check the ram usage' -> 'check the memory usage'  (expected: RAM)
+  [16/34] [  471.4ms] [OK  ] 'the kubernetees cluster is down' -> 'the kubernetes cluster is down'  (expected: Kubernetes)
+  [17/34] [  369.3ms] [OK  ] 'the fire wall blocked it' -> 'The firewall blocked it'  (expected: firewall)
+  [18/34] [  369.9ms] [OK  ] 'restart the dokker container' -> 'restart the docker container'  (expected: Docker, container)
+  [19/34] [  418.5ms] [OK  ] 'check the mother board for damage' -> 'Check the motherboard for damage'  (expected: motherboard)
+  [20/34] [  373.7ms] [OK  ] 'the ferm ware needs flashing' -> 'The firmware needs flashing'  (expected: firmware)
+  [21/34] [  466.6ms] [OK  ] 'open a new tikket for this' -> 'open a new ticket for this'  (expected: ticket)
+  [22/34] [  371.5ms] [OK  ] 'clear the browser catch' -> 'Clear the browser cache'  (expected: cache)
+  [23/34] [  901.5ms] [OK  ] 'configure the address IP for the router' -> 'configure the address IP for the router -> configure the IP address for the router'  (expected: IP address, router)
+  [24/34] [  519.4ms] [OK  ] 'enable balancer load on the cluster' -> 'enable load balancer on the cluster'  (expected: load balancer)
+  [25/34] [  591.6ms] [OK  ] 'set up authentication factor two for logins' -> 'Set up two-factor authentication for logins'  (expected: authentication)
+  [26/34] [  562.4ms] [MISS] 'the weather today is quite pleasant' -> 'there is no transcription error to correct.'  (expected: unchanged)
+  [27/34] [  613.1ms] [MISS] 'can you send me the report by friday' -> 'Can you send me the report by Friday.'  (expected: unchanged)
+  [28/34] [  903.1ms] [MISS] 'i really enjoyed the movie last night' -> 'The text does not appear to contain any technical/domain-specific terminology transcription errors.'  (expected: unchanged)
+  [29/34] [  419.5ms] [MISS] 'please configure the connection settings' -> 'Please configure the connection properties'  (expected: unchanged)
+  [30/34] [  564.4ms] [MISS] 'this is a great and simple idea' -> 'This is a great and simple idea.'  (expected: unchanged)
+  [31/34] [  587.6ms] [MISS] 'the meeting is scheduled for tomorrow' -> 'No errors were found in the text.'  (expected: unchanged)
+  [32/34] [  520.9ms] [OK  ] 'she runs every morning near the park' -> 'She runs every morning near the park'  (expected: unchanged)
+  [33/34] [  471.9ms] [MISS] 'i owe a hundred dollars' -> 'I owe one hundred dollars.'  (expected: unchanged)
+  [34/34] [  716.8ms] [MISS] 'we need to see you tomorrow' -> 'We need to schedule an appointment to see you tomorrow.'  (expected: unchanged)
+
+Successful calls: 34/34
+  mean:   524.9 ms
+  median: 471.7 ms
+  min:    369.3 ms
+  max:    966.7 ms
+  p99:    966.7 ms  (n=34, nearest-rank)
+  Domain-term accuracy on this batch: 13/34 = 38.2%
+  NOTE: this batch accuracy is NOT compared against Mozhi below - see Notes.
+
+==============================================================================
+Side-by-side: Mozhi (non-generative) vs Ollama (generative baseline)
+==============================================================================
+                                             Mozhi        Ollama llama3.1:8b
+Latency mean                             24.656 ms                  524.9 ms
+Latency p99                              38.248 ms                  966.7 ms
+Accuracy, this 34-case batch        not comparable - see Notes below
+Domain-aware catch rate, real audio      5/35 = 14.3%                       n/a
+  (Ollama's real-audio catch rate is in reports/comparison_real_audio.txt,
+   not this row - it needs the same 32-recording machinery, not this script)
+
+Notes:
+  - The accuracy row above is deliberately NOT a Mozhi-vs-Ollama comparison.
+    These 34 sentences are Mozhi's own regression fixtures (tests/batch_cases.py),
+    authored against its dictionary, so Mozhi's accuracy on them is circular by
+    construction (previously misreported here as '34/34 = 100% vs Ollama's X%',
+    which is not a valid comparison and has been removed). Ollama's accuracy on
+    this same batch, printed above, is a real number for THIS SCRIPT's own
+    narrow purpose (can a generic LLM do this task at all on short synthetic
+    sentences) - it is not a fair fight against a system tuned on the very
+    sentences being scored, and is not placed next to a Mozhi number here.
+    The one honest accuracy comparison is on real, independently-collected
+    audio: see reports/comparison_real_audio.txt (evaluate_accuracy.py's own
+    WER/catch-rate machinery, run against both Mozhi and Ollama on the same
+    32 volunteer recordings).
+  - Latency is not like-for-like: Mozhi's figure is in-process
+    time.perf_counter over 20 runs/sentence (reports/latency_benchmark_
+    letter_composition.txt). Ollama's is wall-clock over one HTTP round trip
+    per sentence to a local server, including model decode time.
+  - With n=34, nearest-rank p99 always equals the batch max, so a single
+    slow call dominates the reported p99. The first call in a run often
+    includes Ollama's cold-start cost of loading the model into memory if
+    the server was recently (re)started; this is a real wall-clock cost for
+    that scenario, not excluded here, but it is not steady-state latency.
+

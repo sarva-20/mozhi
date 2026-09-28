@@ -1,4 +1,18 @@
-# Comparison benchmark: free-tier setup notes
+# Comparison benchmark: free-tier setup notes (historical - HF path abandoned)
+
+**Superseded 2026-09-24.** The Hugging Face free serverless Inference API
+backend documented below is abandoned: it could not reliably serve any of the
+fallback models on demand (404/503 - gated, unavailable to the provider, or
+cold-starting), so no complete run against the batch corpus was ever
+obtained through it. `scripts/comparison_benchmark.py` now runs the
+generative baseline against a local Ollama server (`llama3.1:8b`) instead;
+`call_hf_inference` and the model fallback list are still in the script,
+clearly marked as abandoned, but `main()` no longer calls them. The current
+comparison result is `reports/comparison_benchmark_ollama.txt`. This file is
+kept as-is below for the historical record of what was tried and why it
+didn't work.
+
+---
 
 The paid OpenAI and Anthropic clients were removed. The generative baseline now
 uses Hugging Face's free serverless Inference API:
